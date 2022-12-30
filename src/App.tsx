@@ -21,9 +21,9 @@ import VideoConference from "./pages/VideoConference";
 
 export default function App() {
   const dispatch = useDispatch();
-  const isDarkTheme = useAppSelector((zoomApp) => zoomApp.auth.isDarkTheme);
+  const isDarkTheme = useAppSelector((zoomApp:any) => zoomApp.auth.isDarkTheme);
   const [isInitialEffect, setIsInitialEffect] = useState(true);
-  const toasts = useAppSelector((zoom) => zoom.meetings.toasts);
+  const toasts = useAppSelector((zoom:any) => zoom.meetings.toasts);
 
   const removeToast = (removedToast: { id: string }) => {
     dispatch(
