@@ -70,8 +70,8 @@ function Login() {
                 <EuiSpacer size="xs" />
                 <EuiText textAlign="center" grow={false}>
                   <h3>
-                    <EuiTextColor>One Platform to</EuiTextColor>
-                    <EuiTextColor color="#0b5cff"> connect</EuiTextColor>
+                    <EuiTextColor>Meet up </EuiTextColor>
+                    <EuiTextColor color="#0b5cff"> Closer</EuiTextColor>
                   </h3>
                 </EuiText>
                 <EuiSpacer size="l" />

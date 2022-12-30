@@ -68,7 +68,7 @@ export default function Header() {
         <Link to="/">
           <EuiText>
             <h2 style={{ padding: "0 1vw" }}>
-              <EuiTextColor color="#0b5cff">Zoom</EuiTextColor>
+              <EuiTextColor color="#0b5cff">DNS Meet</EuiTextColor>
             </h2>
           </EuiText>
         </Link>,
@@ -80,7 +80,7 @@ export default function Header() {
           {userName ? (
             <EuiText>
               <h3>
-                <EuiTextColor color="white">Hello, </EuiTextColor>
+                <EuiTextColor color="white">Annyeong, </EuiTextColor>
                 <EuiTextColor color="#0b5cff">{userName}</EuiTextColor>
               </h3>
             </EuiText>
